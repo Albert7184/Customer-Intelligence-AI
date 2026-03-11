@@ -1,0 +1,57 @@
+# ======================
+# Python cache
+# ======================
+venv/
+__pycache__/
+*.pyc
+.env
+.vscode
+*.pkl
+
+# ======================
+# Virtual Environment
+# ======================
+venv/
+env/
+ENV/
+.venv/
+
+# ======================
+# Jupyter Notebook
+# ======================
+.ipynb_checkpoints/
+
+# ======================
+# Environment variables
+# ======================
+.env
+
+# ======================
+# System files
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# Logs
+# ======================
+*.log
+
+# ======================
+# Model files (optional)
+# ======================
+*.pkl
+*.joblib
+*.h5
+
+# ======================
+# Large datasets
+# ======================
+data/raw/
+data/temp/
+
+# ======================
+# IDE settings
+# ======================
+.vscode/
+.idea/

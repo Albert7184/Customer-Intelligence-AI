@@ -1,0 +1,75 @@
+/* ===== GLOBAL BACKGROUND ===== */
+
+.stApp {
+    background-color: #0a0f1c;
+}
+
+/* ===== MAIN TEXT ===== */
+
+html, body, p, span, label {
+    color: #ffffff !important;
+}
+
+/* ===== TITLES ===== */
+
+h1, h2, h3, h4 {
+    color: #ffffff !important;
+}
+
+/* ===== METRIC NUMBERS ===== */
+
+[data-testid="stMetricValue"] {
+    color: #ffffff !important;
+    font-size: 34px !important;
+    font-weight: 700;
+}
+
+/* ===== METRIC LABEL ===== */
+
+[data-testid="stMetricLabel"] {
+    color: #94a3b8 !important;
+}
+
+/* ===== SIDEBAR ===== */
+
+section[data-testid="stSidebar"] {
+    background-color: #0f172a !important;
+}
+
+section[data-testid="stSidebar"] * {
+    color: #ffffff !important;
+}
+
+/* ===== TABS ===== */
+
+button[data-baseweb="tab"] {
+    color: #94a3b8 !important;
+    font-size: 16px;
+}
+
+button[data-baseweb="tab"][aria-selected="true"] {
+    color: #ffffff !important;
+    border-bottom: 3px solid #6366f1;
+}
+
+/* ===== DATAFRAME ===== */
+
+thead tr th {
+    color: white !important;
+}
+
+tbody tr td {
+    color: white !important;
+}
+
+/* ===== PLOTLY CHART BACKGROUND ===== */
+
+.js-plotly-plot {
+    background-color: #0a0f1c !important;
+}
+
+/* ===== REMOVE STREAMLIT WHITE BACKGROUND ===== */
+
+.block-container {
+    background-color: #0a0f1c !important;
+}
