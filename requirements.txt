@@ -1,9 +1,9 @@
+streamlit>=1.32
 pandas
 numpy
 scikit-learn
 matplotlib
 seaborn
-streamlit
 plotly
 openpyxl
-altair<5
+altair<5.0.0
